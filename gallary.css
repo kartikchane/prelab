@@ -1,0 +1,41 @@
+body {
+text-align: center;
+float: none;
+font-family: 'Courier New', Courier, monospace;
+background-image: conic-gradient(#1361b9, rgb(61, 207, 176),rgb(41, 92, 156),pink);
+
+}
+h1{
+    color: rgb(255, 38, 0);
+    padding-top: 35px;
+    height: 80px;
+    border: 7px inset #7e057e ;
+    background-image: radial-gradient(pink,rgb(121, 193, 240));
+    text-shadow: 4px 4px 5px rosybrown;
+}
+.car{
+    
+    padding:20px 40px 20px 40px;
+    background-image: linear-gradient((45deg,#2d1299) 20%,rgb(209, 29, 41) 80%);
+    position: relative;
+    border: 7px inset hsl(339, 94%, 20%) ;
+    float: left;
+    left: 10%;
+}
+.plant{
+    padding:20px 40px 20px 40px;
+    background-image: linear-gradient((45deg,#2d1299) 20%,rgb(162, 28, 35) 80%);
+    position: relative;
+    border: 7px inset #601010 ;
+    float: left;
+    left: 35%;
+}
+
+.ani{
+    padding:20px 40px 20px 40px;
+    background-image: linear-gradient((45deg,#2d1299) 20%,rgb(178, 37, 37) 80%);
+    position: relative;
+    border: 7px inset #971e7f ;
+    float: right;
+    right: 10%;
+}
