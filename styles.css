@@ -1,0 +1,97 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family:Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  background-color:snow;
+ 
+}
+header{
+  position:sticky;
+  top: 0;
+  background: white;
+  height: 86px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.rightBox{
+    display: flex;
+    margin: 12px;
+  }
+.left img{
+   width: 110px;
+  height: 43px;
+  
+}
+.container{
+  padding:0 10vw;
+}
+nav ul li{
+  list-style: none;
+  padding:0 12px;
+  font-size :15px;
+  letter-spacing:0.5px;
+  text-decoration:none;
+  position:relative;
+  color:black;
+}
+nav ul li:after{
+  content:"";
+  position:absolute;
+  background-color:#ff247b;
+  height: 3px;
+  width:0;
+  left:0;
+  bottom:-10px;
+  transition:0.3s;
+}
+nav ul li:hover{
+  color:#ff5c95;
+}
+
+nav ul li:hover:after{
+  width: 100%;
+}
+
+.search{
+  width: 34vw;
+    padding: 7px 17px;
+    border: 0.5px solid grey;
+    background: #f7f8fd;
+    border-radius: 5px;
+}
+.section1{
+  background:#ffffff00;
+}
+nav{
+  font-size:12px;
+  padding-top:14px;
+}
+.homeImg{
+  width:80vw;
+  margin:12px 0;
+  align-items:center;
+}
+.itemImg{
+  width:15vw;
+  margin:0px 0px;
+}
+.sub-menu-1{
+  display: none;
+}
+nav ul li:hover .sub-menu-1{
+  display: block;
+  position:absolute;
+  background:rgb(253, 252, 252);
+  margin-top:30px;
+  margin-left:-10px;
+}
+nav ul li:hover .sub-menu-1 ul{
+display: block;
+ margin:10px;
+}
+footer{
+  padding: 23px;
+  text-align: center;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
