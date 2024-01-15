@@ -1,26 +1,22 @@
-.flex{
-    display:flex;
-  }
-  .items-center{
-    align-items:center;
-  }
-  .justify-center{
-    justify-content:center;
-  }
-  .space-between{
-    justify-content:space-between;
-  }
-  .uppercase{
-    text-transform:uppercase;
+.text-center{
+    text-align: center;
   }
   
-  .semibold{
-    font-weight:bolder;
+  .bg-red{
+    background: red;
   }
-  .mx-2{
-    margin-left:12px;
-    margin-right:12px;
+  
+  .mx-auto{
+    margin: auto;
   }
-  .flex-wrap{
-      flex-wrap:wrap;
+  
+  .flex{
+    display:flex;
+  } 
+  .flex-col{
+    flex-direction: column;
+  }
+  
+  .items-center{
+    align-items: center;
   }
